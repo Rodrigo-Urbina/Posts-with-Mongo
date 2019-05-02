@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>This is the index </title>
+  </head>
+  <body>
+    <h1> List of posts </h1>
+    <ul class="posts-list">
+    </ul>
+
+    <form class="PostForm">
+      <fieldset>
+        <legend> Add new posts </legend>
+        <label>
+          <div>
+            Title of post : <input class="postTitle" type="text"/>
+          </div>
+        </label>
+        <label>
+          <div>
+            ID of post : <input class="postId" type="Number"/>
+          </div>
+        </label>
+        <label>
+          <div>
+            Content of post : <input class="postContent" type="text"/>
+          </div>
+        </label>
+        <label>
+          <div>
+            Author of post : <input class="postAuthor" type="text"/>
+          </div>
+        </label>
+        <label>
+          <div>
+            Publish Date of post : <input class="postDate" type="date"/>
+          </div>
+        </label>
+        <button class="submitPosts" type="submit"> Add </button>
+      </fieldset>
+    </form>
+
+    <script
+	  src="https://code.jquery.com/jquery-3.3.1.js"
+	  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+	  crossorigin="anonymous"></script>
+    <script src="./index.js"> </script>
+  </body>
+</html>
